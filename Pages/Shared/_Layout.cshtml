@@ -48,7 +48,7 @@
                         @if (SignInManager.IsSignedIn(User) && User.IsInRole("administrators"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/">Manage Bookings</a>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/ManageBookings/Index">Manage Bookings</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-page="/">Statistics</a>

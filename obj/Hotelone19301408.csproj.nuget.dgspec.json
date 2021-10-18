@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lukel\\OneDrive\\Desktop\\WSD\\Project\\Hotelone19301408\\Hotelone19301408.csproj": {}
+    "C:\\Users\\shirl\\OneDrive\\Documents\\GitHub\\WSDproject\\Hotelone19301408.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lukel\\OneDrive\\Desktop\\WSD\\Project\\Hotelone19301408\\Hotelone19301408.csproj": {
+    "C:\\Users\\shirl\\OneDrive\\Documents\\GitHub\\WSDproject\\Hotelone19301408.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lukel\\OneDrive\\Desktop\\WSD\\Project\\Hotelone19301408\\Hotelone19301408.csproj",
+        "projectUniqueName": "C:\\Users\\shirl\\OneDrive\\Documents\\GitHub\\WSDproject\\Hotelone19301408.csproj",
         "projectName": "Hotelone19301408",
-        "projectPath": "C:\\Users\\lukel\\OneDrive\\Desktop\\WSD\\Project\\Hotelone19301408\\Hotelone19301408.csproj",
-        "packagesPath": "C:\\Users\\lukel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lukel\\OneDrive\\Desktop\\WSD\\Project\\Hotelone19301408\\obj\\",
+        "projectPath": "C:\\Users\\shirl\\OneDrive\\Documents\\GitHub\\WSDproject\\Hotelone19301408.csproj",
+        "packagesPath": "C:\\Users\\shirl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shirl\\OneDrive\\Documents\\GitHub\\WSDproject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lukel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shirl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +57,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.18, )"
+              "version": "[3.1.20, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -64,7 +67,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.18, )"
+              "version": "[3.1.20, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
