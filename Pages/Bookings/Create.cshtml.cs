@@ -13,6 +13,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Hotelone19301408.Pages.Bookings
 {
+[Authorize(Roles = "customers")]
+
     public class CreateModel : PageModel
     {
         private readonly Hotelone19301408.Data.ApplicationDbContext _context;
