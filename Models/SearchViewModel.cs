@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Hotelone19301408.Models
 {
+[Authorize(Roles = "customers")]
     public class SearchViewModel
     {
         [Display(Name = "Check In Date")]
