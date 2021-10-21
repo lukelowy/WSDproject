@@ -11,6 +11,8 @@ using Hotelone19301408.Models;
 
 namespace Hotelone19301408.Pages.Customers
 {
+[Authorize(Roles = "customers")]
+
     public class MyDetailsModel : PageModel
     {
 
