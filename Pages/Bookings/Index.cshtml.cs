@@ -11,6 +11,7 @@ using System.Security.Claims;
 
 namespace Hotelone19301408.Pages.Bookings
 {
+[Authorize(Roles = "customers")]
     public class IndexModel : PageModel
     {
         private readonly Hotelone19301408.Data.ApplicationDbContext _context;
