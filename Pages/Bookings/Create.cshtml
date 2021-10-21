@@ -18,6 +18,10 @@
                 <select asp-for="Booking.RoomID" class="form-control" asp-items="ViewBag.RoomID"></select>
             </div>
             <div class="form-group">
+                <label asp-for="Booking.CustomerEmail" class="control-label"></label>
+                <select asp-for="Booking.CustomerEmail" class="form-control" asp-items="ViewBag.CustomerEmail"></select>
+            </div>
+            <div class="form-group">
                 <label asp-for="Booking.CheckIn" class="control-label"></label>
                 <input asp-for="Booking.CheckIn" class="form-control" />
                 <span asp-validation-for="Booking.CheckIn" class="text-danger"></span>
@@ -27,6 +31,13 @@
                 <input asp-for="Booking.CheckOut" class="form-control" />
                 <span asp-validation-for="Booking.CheckOut" class="text-danger"></span>
             </div>
+            @*
+        <div class="form-group">
+            <label asp-for="Booking.Cost" class="control-label"></label>
+            <input asp-for="Booking.Cost" class="form-control" />
+            <span asp-validation-for="Booking.Cost" class="text-danger"></span>
+        </div>
+            *@
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -44,9 +55,9 @@
 else if ((string)ViewData["NewBooking"] == "true")
 {
 <div>
-    <h2>Your Booking has been Placed!</h2>
-    <p><strong>Room No: </strong>@ViewData["Rm"]</p>
-    <p><strong>Beds: </strong>@ViewData["BedC"]</p>
+    <h2>Booking updated!</h2>
+    <p><strong>Room ID: </strong>@ViewData["Rm"]</p>
+    <p><strong>Customer Name: </strong>@ViewData["CustomerName"]</p>
     <p><strong>Nights: </strong>@ViewData["NightCount"]</p>
     <p><strong>Total Cost:</strong> @ViewData["total"]</p>
 </div>

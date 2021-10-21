@@ -478,8 +478,8 @@ C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Hote
 C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Hotelone19301408.dll
 C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Hotelone19301408.pdb
 C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Hotelone19301408.genruntimeconfig.cache
-C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Razor\Pages\ManageBookings\Create.cshtml.g.cs
-C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Razor\Pages\ManageBookings\Delete.cshtml.g.cs
-C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Razor\Pages\ManageBookings\Details.cshtml.g.cs
-C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Razor\Pages\ManageBookings\Edit.cshtml.g.cs
-C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Razor\Pages\ManageBookings\Index.cshtml.g.cs
+C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Razor\Pages\Bookings\BookARoom.cshtml.g.cs
+C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Razor\Pages\Bookings\MyBookings.cshtml.g.cs
+C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Razor\Pages\Bookings\ManageBookings.cshtml.g.cs
+C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Razor\Pages\Bookings\EditBookings.cshtml.g.cs
+C:\Users\shirl\OneDrive\Documents\GitHub\WSDproject\obj\Debug\netcoreapp3.1\Razor\Pages\Bookings\ViewBookings.cshtml.g.cs

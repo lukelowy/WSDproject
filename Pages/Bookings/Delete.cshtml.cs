@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Hotelone19301408.Data;
 using Hotelone19301408.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Hotelone19301408.Pages.Bookings
 {
+    [Authorize(Roles = "administrators")]
     public class DeleteModel : PageModel
     {
         private readonly Hotelone19301408.Data.ApplicationDbContext _context;

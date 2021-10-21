@@ -19,7 +19,7 @@ namespace Hotelone19301408.Models
         public DateTime CheckIn { get; set; }
 
         [DataType(DataType.Date)]
-        [Display(Name = "Check In Date")]
+        [Display(Name = "Check Out Date")]
         public DateTime CheckOut { get; set; }
     }
 }

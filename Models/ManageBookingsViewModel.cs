@@ -9,6 +9,7 @@ namespace Hotelone19301408.Models
 {
     public class ManageBookingsViewModel
     {
+        [Key, Required]
         [Display(Name = "Customer Email")]
         [DataType(DataType.EmailAddress)]
         public string CustomerEmail { get; set; }

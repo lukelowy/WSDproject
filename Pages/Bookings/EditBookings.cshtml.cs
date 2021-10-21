@@ -8,14 +8,16 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Hotelone19301408.Data;
 using Hotelone19301408.Models;
-
-namespace Hotelone19301408.Pages.ManageBookings
+using Microsoft.AspNetCore.Authorization;
+//TESTING something
+namespace Hotelone19301408.Pages.Bookings
 {
-    public class EditModel : PageModel
+    [Authorize(Roles = "administrators")]
+    public class EditBookingsModel : PageModel
     {
         private readonly Hotelone19301408.Data.ApplicationDbContext _context;
 
-        public EditModel(Hotelone19301408.Data.ApplicationDbContext context)
+        public EditBookingsModel(Hotelone19301408.Data.ApplicationDbContext context)
         {
             _context = context;
         }

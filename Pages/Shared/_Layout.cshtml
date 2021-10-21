@@ -25,31 +25,35 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
+                        @*Moved the room index link so that the users can view the pricing of the rooms*@
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Rooms/Index">Rooms Index</a>
+                        </li>
                         @if (SignInManager.IsSignedIn(User) && User.IsInRole("customers"))
                         {
 
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Customers/MyDetails">My Details</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Bookings/Search">Search</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/">Rooms</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Bookings/Create">Book a room</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Bookings/Index">My Bookings</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Customers/MyDetails">My Details</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Bookings/Search">Search Rooms</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Bookings/BookARoom">Book a room</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Bookings/MyBookings">My Bookings</a>
+                            </li>
                         }
 
                         @if (SignInManager.IsSignedIn(User) && User.IsInRole("administrators"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/ManageBookings/Index">Manage Bookings</a>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Bookings/Index">Manage Bookings</a>
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-page="/">Statistics</a>
                             </li>
