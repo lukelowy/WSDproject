@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shirl\\OneDrive\\Documents\\GitHub\\WSDproject\\Hotelone19301408.csproj": {}
+    "C:\\Users\\Sandra\\Desktop\\WSD Project\\WSDproject\\Hotelone19301408.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shirl\\OneDrive\\Documents\\GitHub\\WSDproject\\Hotelone19301408.csproj": {
+    "C:\\Users\\Sandra\\Desktop\\WSD Project\\WSDproject\\Hotelone19301408.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shirl\\OneDrive\\Documents\\GitHub\\WSDproject\\Hotelone19301408.csproj",
+        "projectUniqueName": "C:\\Users\\Sandra\\Desktop\\WSD Project\\WSDproject\\Hotelone19301408.csproj",
         "projectName": "Hotelone19301408",
-        "projectPath": "C:\\Users\\shirl\\OneDrive\\Documents\\GitHub\\WSDproject\\Hotelone19301408.csproj",
-        "packagesPath": "C:\\Users\\shirl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shirl\\OneDrive\\Documents\\GitHub\\WSDproject\\obj\\",
+        "projectPath": "C:\\Users\\Sandra\\Desktop\\WSD Project\\WSDproject\\Hotelone19301408.csproj",
+        "packagesPath": "C:\\Users\\Sandra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sandra\\Desktop\\WSD Project\\WSDproject\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\shirl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -57,7 +52,7 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.20, )"
+              "version": "[3.1.18, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -67,7 +62,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.20, )"
+              "version": "[3.1.18, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -92,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

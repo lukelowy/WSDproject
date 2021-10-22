@@ -12,6 +12,8 @@ using Hotelone19301408.Models;
 
 namespace Hotelone19301408.Pages.Bookings
 {
+[Authorize(Roles = "customers")]
+
     public class SearchModel : PageModel
     {
         private readonly Hotelone19301408.Data.ApplicationDbContext _context;
